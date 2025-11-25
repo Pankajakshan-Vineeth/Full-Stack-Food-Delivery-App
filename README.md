@@ -1,16 +1,34 @@
-# React + Vite
+🍔 Full-Stack Food Delivery App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A complete food ordering website/app built with React, Node.js, Express, MongoDB, and Stripe.
+This project includes a responsive frontend, an admin panel, and a secure backend server with user authentication, shopping cart, Stripe-based payments, and real-time order status updates.
 
-Currently, two official plugins are available:
+Key Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+User signup / login (JWT authentication)
 
-## React Compiler
+Browse restaurants / food items & search/filter
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Shopping cart (add / update / remove items)
 
-## Expanding the ESLint configuration
+Place orders with Stripe online payments
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Order status flow: Preparing → Out for Delivery → Delivered
+
+Admin panel for managing foods, restaurants, and orders
+
+Backend RESTful API with secure endpoints
+
+Tech Stack
+
+Frontend: React (create-react-app / Next.js optional), Context API or Redux, Tailwind / Material UI
+
+Backend: Node.js, Express
+
+Database: MongoDB (Atlas or local)
+
+Payments: Stripe (server-side charges)
+
+Authentication: JSON Web Tokens (JWT)
+
+Optional: Socket.io for realtime updates, Cloudinary for image hosting
